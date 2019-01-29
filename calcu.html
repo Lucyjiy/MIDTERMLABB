@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head><link rel="stylesheet" type="text/css" href="problemA.css">
+	<title>Calculator</title>
+</head>
+<body>
+
+<input type="number" placeholder="0" id=display>
+<br>
+
+
+	<button type="number"onclick="attachnumber(this)">9</button>
+	<button type="number"onclick="attachnumber(this)">8</button>
+	<button type="number"onclick="attachnumber(this)">7</button>
+	<button id="ndivide" onclick="divide()">/</button><br>
+	<button type="number"onclick="attachnumber(this)">6</button>
+	<button type="number"onclick="attachnumber(this)">5</button>
+	<button type="number"onclick="attachnumber(this)">4</button>
+	<button id="ntimes" onclick="times()">*</button><br>
+	<button type="number" onclick="attachnumber(this)">3</button>
+	<button type="number" onclick="attachnumber(this)">2</button>
+	<button type="number" onclick="attachnumber(this)">1</button>
+	<button id="nminus" onclick="minus()">-</button><br>
+	<button onclick="clear()">c</button>
+	<button type="number" onclick="attachnumber(this)">0</button>
+	<button id="nplus" onclick="add()">+</button>
+	<button id="nequal" onclick="equal()">=</button>
+
+
+	
+	
+</div>
+
+<script>
+	let num = document.getElementByID('display').value;
+	let numberHolder = parseInt(num.value);
+	let optr;
+
+
+	function Add(argument){
+       optr = '+';
+       numberHolder = parseInt(n.value);
+       n.value = "";
+
+    function result(){
+       switch(optr);
+
+	}
+
+	function attachNumber(e){
+		console.log(e)
+		n.value += e.innerHTML;
+	}
+
+}
+	
+
+
+
+</script>
+
+
+
+
+</body>
+</html>

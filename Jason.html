@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JSON</title>
+</head>
+<body>
+	<button type="button" onclick="loadJSON()">loadJSON</button><br>
+	<button type="button" onclick="loadScript()">loadScript</button>
+
+
+
+</body>
+
+
+
+<script>
+function loadJSON(){
+ 
+
+  let xhttp = new XMLHttpRequest();
+  let list = document.getElementByID('list');
+
+  xhttp.onreadystatechange();
+  if (xhtml.readystate == 4 && shttp.status == 200){
+  	for (i=0; i  < data,lenght, i++){
+  		let data = JSON.parse(xhttp.response());
+  		console.log();
+  		html = "li"
+  	}
+  
+
+  xhtml.get('GET',"https://jsonplaceholder.typecode.com/todos"  true );
+  xhtml.send();
+
+   
+ 
+
+
+}
+
+
+</script>
+</html>
